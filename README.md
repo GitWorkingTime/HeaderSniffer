@@ -1,4 +1,5 @@
 # HeaderSniffer
+<img width="980" height="203" alt="Screenshot 2025-12-04 123059" src="https://github.com/user-attachments/assets/1abc2844-6b9d-48b7-bdcc-35430a4a62e6" />
 HeaderSniffer is a python script that takes in a file path and double checks if the header file extension is really the file format. This could be used as a precautionary step before executing or opening a file. Hackers may disguise their file under another file extension afterall. The inspiration for this project came from this [video](https://www.youtube.com/watch?v=10CLi-OUy4E) when I was just bored.
 
 ## Getting Started
