@@ -34,55 +34,17 @@ This is assuming that you already had Git installed. If not, there are lots of r
 5.) If you wish to exit, just type in 'exit'
 ```
 ## Supported Document Types:
-### Images:
-- png
-- jpg
-- jpeg
-- gif
-- bmp
-- tif
-- tiff
-- webp
-- ico
-
-### Archives / Compression
-- zip
-- gz
-- tar
-- 7z
-- rar
-
-### Documents
-- pdf
-- ps
-- ole2 (Generic OLE2 - doc / xls / ppt )
-
-### Audio
-- mp3
-- mp3_v1 (MP3 Varient)
-- wav
-- flac
-- ogg
-- midi
-
-### Video
-- mp4
-- avi
-- mov
-
-### Executubles / Systems
-- exe
-- dll
-- elf
-- class
-- sh
-
-### Font Files
-- tff
-- otf
-
-### Disk Images
-- iso
+| Type                   | File Format                                              |
+|------------------------|----------------------------------------------------------|
+| Images                 | - png - jpg - jpeg - gif - bmp - tif - tiff - webp - ico |
+| Archives / Compression | - zip - gz - tar - 7z - rar                              |
+| Documents              | - pdf - ps - ole2 (Generic OLE2: doc, xls, ppt)          |
+| Audio                  | - mp3 - mp3_v1 (MP3 Varient) - wav - flac - ogg - midi   |
+| Video                  | - mp4 - avi - mov                                        |
+| Executables / Systems  | - exe - dll - elf - class - sh                           |
+| Font Files             | - tff - otf                                              |
+| Disk Images            | - iso                                                    |
+| Other                  | - xml - rtf - swf - wasm                                 |
 
 ### Other
 - xml
