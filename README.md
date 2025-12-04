@@ -45,9 +45,3 @@ This is assuming that you already had Git installed. If not, there are lots of r
 | Font Files             | - tff - otf                                              |
 | Disk Images            | - iso                                                    |
 | Other                  | - xml - rtf - swf - wasm                                 |
-
-### Other
-- xml
-- rtf
-- swf
-- wasm
