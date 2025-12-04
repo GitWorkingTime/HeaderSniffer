@@ -3,60 +3,60 @@ HeaderSniffer is a python script that takes in a file path and double checks if 
 
 ## Supported Document Types:
 ### Images:
-[] png
-[] jpg
-[] jpeg
-[] gif
-[] bmp
-[] tif
-[] tiff
-[] webp
-[] ico
+- png
+- jpg
+- jpeg
+- gif
+- bmp
+- tif
+- tiff
+- webp
+- ico
 
 ### Archives / Compression
-[] zip
-[] gz
-[] tar
-[] 7z
-[] rar
+- zip
+- gz
+- tar
+- 7z
+- rar
 
 ### Documents
-[] pdf
-[] ps
-[] ole2 (Generic OLE2 - doc / xls / ppt )
+- pdf
+- ps
+- ole2 (Generic OLE2 - doc / xls / ppt )
 
 ### Audio
-[] mp3
-[] mp3_v1 (MP3 Varient)
-[] wav
-[] flac
-[] ogg
-[] midi
+- mp3
+- mp3_v1 (MP3 Varient)
+- wav
+- flac
+- ogg
+- midi
 
 ### Video
-[] mp4
-[] avi
-[] mov
+- mp4
+- avi
+- mov
 
 ### Executubles / Systems
-[] exe
-[] dll
-[] elf
-[] class
-[] sh
+- exe
+- dll
+- elf
+- class
+- sh
 
 ### Font Files
-[] tff
-[] otf
+- tff
+- otf
 
 ### Disk Images
-[] iso
+- iso
 
 ### Other
-[] xml
-[] rtf
-[] swf
-[] wasm
+- xml
+- rtf
+- swf
+- wasm
 
 ## Getting Started
 This is assuming that you already had Git installed. If not, there are lots of resources online such as [this](https://www.theodinproject.com/lessons/foundations-setting-up-git) to get you started. As well, make sure to have python installed on your machine too! [Installing Python](https://www.geeksforgeeks.org/python/download-and-install-python-3-latest-version/)
