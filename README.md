@@ -1,6 +1,37 @@
 # HeaderSniffer
 HeaderSniffer is a python script that takes in a file path and double checks if the header file extension is really the file format. This could be used as a precautionary step before executing or opening a file. Hackers may disguise their file under another file extension afterall.
 
+## Getting Started
+This is assuming that you already had Git installed. If not, there are lots of resources online such as [this](https://www.theodinproject.com/lessons/foundations-setting-up-git) to get you started. As well, make sure to have python installed on your machine too! [Installing Python](https://www.geeksforgeeks.org/python/download-and-install-python-3-latest-version/)
+```
+1.) Clone the Repo:
+    git clone git@github.com:GitWorkingTime/HeaderSniffer.git (For SSH)
+    git clone https://github.com/GitWorkingTime/HeaderSniffer.git (For HTTPS)
+
+2.) Open the Directory
+```
+
+## Usage
+```
+1.) Enter the directory via cd in the terminal
+2.) Run python header_sniffer.py
+3.) Choose a file you want to check and copy its file path by right-clicking on the file and 
+    selecting "Copy File as Path" or Ctrl + Shift + C on windows
+4.) View the logs. This will be the format:
+    [File Name]:             (The name of the file)
+    [Magic Number (hex)]:    (Magic number in hexadecimal)
+    [Real File Extension]:   (Real file format found based on magic number)
+    [File Extension Header]: (File extension found in the header)
+
+    Either "Correct file type." Or "Warning!"
+
+    [Additional Stats]:
+        [Size]:          (Number of bytes)
+        [Last modified]: (date)
+        [Last Accessed]: (date)
+        [Created]:       (date)
+5.) If you wish to exit, just type in 'exit'
+```
 ## Supported Document Types:
 ### Images:
 - png
@@ -57,34 +88,3 @@ HeaderSniffer is a python script that takes in a file path and double checks if 
 - rtf
 - swf
 - wasm
-
-## Getting Started
-This is assuming that you already had Git installed. If not, there are lots of resources online such as [this](https://www.theodinproject.com/lessons/foundations-setting-up-git) to get you started. As well, make sure to have python installed on your machine too! [Installing Python](https://www.geeksforgeeks.org/python/download-and-install-python-3-latest-version/)
-```
-1.) Clone the Repo:
-    git clone git@github.com:GitWorkingTime/HeaderSniffer.git (For SSH)
-    git clone https://github.com/GitWorkingTime/HeaderSniffer.git (For HTTPS)
-
-2.) Open the Directory
-```
-
-## Usage
-```
-1.) Enter the directory via cd in the terminal
-2.) Run python header_sniffer.py
-3.) Choose a file you want to check and copy its file path by right-clicking on the file and selecting "Copy File as Path" or Ctrl + Shift + C on windows
-4.) View the logs. This will be the format:
-    [File Name]:             (The name of the file)
-    [Magic Number (hex)]:    (Magic number in hexadecimal)
-    [Real File Extension]:   (Real file format found based on magic number)
-    [File Extension Header]: (File extension found in the header)
-
-    Either "Correct file type." Or "Warning!"
-
-    [Additional Stats]:
-        [Size]:          (Number of bytes)
-        [Last modified]: (date)
-        [Last Accessed]: (date)
-        [Created]:       (date)
-5.) If you wish to exit, just type in 'exit'
-```
